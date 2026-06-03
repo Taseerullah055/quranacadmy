@@ -1,4 +1,4 @@
-@extends('client.layouts.landing_page_layout')
+@extends('client.layouts.female_teachers_layout')
 @section('content')
 <!-- ══════════════════════════════
      HERO
@@ -122,8 +122,8 @@
       <!-- TCPA Consent -->
       <p class="form-tcpa">By submitting, you agree to be contacted by NoorPath Academy via phone or SMS at the number provided. Message & data rates may apply. We respect your privacy and will never sell your information. <a href="#" style="color:var(--emerald)">Privacy Policy</a>.</p>
 
-      <div class="trial-landing_page_includes">
-        <p>Your Free Trial landing_page_includes:</p>
+      <div class="trial-female_teachers_includes">
+        <p>Your Free Trial female_teachers_includes:</p>
         <ul>
           <li><i class="fas fa-check-circle"></i> Quran level assessment</li>
           <li><i class="fas fa-check-circle"></i> Teacher matching based on child's needs</li>
@@ -139,98 +139,98 @@
 <!-- ══════════════════════════════
      TRUST BAR
 ══════════════════════════════ -->
-@include('client.landing_page_includes.trust_bar')
+@include('client.female_teachers_includes.trust_bar')
 
 <!-- ══════════════════════════════
      PHOTO SCROLL STRIP
 ══════════════════════════════ -->
-@include('client.landing_page_includes.scroll_strip_bar')
+@include('client.female_teachers_includes.scroll_strip_bar')
 
 <!-- ══════════════════════════════
      LIVE CLASS SHOWCASE
 ══════════════════════════════ -->
-@include('client.landing_page_includes.live_class_showcase')
+@include('client.female_teachers_includes.live_class_showcase')
 
 
 <!-- ══════════════════════════════
      ABOUT NOORPATH
 ══════════════════════════════ -->
-@include('client.landing_page_includes.about')
+@include('client.female_teachers_includes.about')
 
 <!-- ══════════════════════════════
      PROMOTIONAL BANNER
 ══════════════════════════════ -->
-@include('client.landing_page_includes.promotional_banner')
+@include('client.female_teachers_includes.promotional_banner')
 
 <!-- ══════════════════════════════
      WHY PARENTS CHOOSE NOORPATH
 ══════════════════════════════ -->
-@include('client.landing_page_includes.parents_chose')
+@include('client.female_teachers_includes.parents_chose')
 
 <!-- ══════════════════════════════
      PAIN + SOLUTION
 ══════════════════════════════ -->
-@include('client.landing_page_includes.pain_solution')
+@include('client.female_teachers_includes.pain_solution')
 
 <!-- ══════════════════════════════
      REAL RESULTS
 ══════════════════════════════ -->
-@include('client.landing_page_includes.real_results')
+@include('client.female_teachers_includes.real_results')
 
 <!-- ══════════════════════════════
      PROOF — TESTIMONIALS
 ══════════════════════════════ -->
-@include('client.landing_page_includes.testimonials')
+@include('client.female_teachers_includes.testimonials')
 
 <!-- ══════════════════════════════
      EMOTIONAL PHOTO BANNER
 ══════════════════════════════ -->
-@include('client.landing_page_includes.emotional_photo_banner')
+@include('client.female_teachers_includes.emotional_photo_banner')
 
 <!-- ══════════════════════════════
      TEACHERS
 ══════════════════════════════ -->
-@include('client.landing_page_includes.teachers')
+@include('client.female_teachers_includes.teachers')
 
 <!-- ══════════════════════════════
      OUR COURSES
 ══════════════════════════════ -->
-@include('client.landing_page_includes.courses')
+@include('client.female_teachers_includes.courses')
 
 <!-- ══════════════════════════════
      HOW IT WORKS
 ══════════════════════════════ -->
-@include('client.landing_page_includes.how_it_work')
+@include('client.female_teachers_includes.how_it_work')
 
 <!-- ══════════════════════════════
      OFFER STACK
 ══════════════════════════════ -->
-@include('client.landing_page_includes.offer_stack')
+@include('client.female_teachers_includes.offer_stack')
 
 <!-- ══════════════════════════════
      PRICING HINT
 ══════════════════════════════ -->
-@include('client.landing_page_includes.pricing_hint')
+@include('client.female_teachers_includes.pricing_hint')
 
 <!-- ══════════════════════════════
      JOURNEY DUA SECTION
 ══════════════════════════════ -->
-@include('client.landing_page_includes.journey_dua')
+@include('client.female_teachers_includes.journey_dua')
 
 <!-- ══════════════════════════════
      AYAH INSPIRATION SECTION
 ══════════════════════════════ -->
-@include('client.landing_page_includes.ayah_inspiration')
+@include('client.female_teachers_includes.ayah_inspiration')
 
 <!-- ══════════════════════════════
      FAQ — OBJECTION HANDLING
 ══════════════════════════════ -->
-@include('client.landing_page_includes.faq')
+@include('client.female_teachers_includes.faq')
 
 <!-- ══════════════════════════════
      GUARANTEE
 ══════════════════════════════ -->
-@include('client.landing_page_includes.guarantee')
+@include('client.female_teachers_includes.guarantee')
 
 <!-- ══════════════════════════════
      FINAL CTA
@@ -238,5 +238,5 @@
 <!-- ══════════════════════════════
      QURAN PHOTO GALLERY
 ══════════════════════════════ -->
-@include('client.landing_page_includes.quran_photo_gallery')
+@include('client.female_teachers_includes.quran_photo_gallery')
 @endsection

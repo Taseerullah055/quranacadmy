@@ -17,7 +17,7 @@
   <!-- ================================================ -->
   <!-- CONVERSION NAV — Logo + Single CTA Only -->
   <!-- ================================================ -->
-  @include('client.landing_page_two_includes.header')
+  @include('client.teachers_includes.header')
 
    @yield('content')
  
@@ -25,7 +25,7 @@
   <!-- FOOTER — Contact + Socials + Legal -->
   <!-- ================================================ -->
   
-  @include('client.landing_page_two_includes.footer')
+  @include('client.teachers_includes.footer')
 
   <!-- ================================================ -->
   <!-- STICKY MOBILE CTA BAR -->

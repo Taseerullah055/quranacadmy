@@ -38,12 +38,12 @@
 <!-- ══════════════════════════════
      NAV
 ══════════════════════════════ -->
-@include('client.landing_page_includes.header')
+@include('client.female_teachers_includes.header')
 
 <!-- ══════════════════════════════
      COUNTDOWN URGENCY BAR
 ══════════════════════════════ -->
-@include('client.landing_page_includes.urgency_bar')
+@include('client.female_teachers_includes.urgency_bar')
 
 @yield('content')
 
@@ -143,13 +143,13 @@
     const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
     const el = document.getElementById('geoLine');
     if (!el) return;
-    if (tz.landing_page_includes('America/New_York') || tz.landing_page_includes('America/Detroit'))
+    if (tz.female_teachers_includes('America/New_York') || tz.female_teachers_includes('America/Detroit'))
       el.textContent = 'Enrolling Now — Muslim Families in New York & Michigan';
-    else if (tz.landing_page_includes('America/Chicago'))
+    else if (tz.female_teachers_includes('America/Chicago'))
       el.textContent = 'Enrolling Now — Muslim Families in Texas & Illinois';
-    else if (tz.landing_page_includes('America/Los_Angeles'))
+    else if (tz.female_teachers_includes('America/Los_Angeles'))
       el.textContent = 'Enrolling Now — Muslim Families in California';
-    else if (tz.landing_page_includes('America/Denver') || tz.landing_page_includes('America/Phoenix'))
+    else if (tz.female_teachers_includes('America/Denver') || tz.female_teachers_includes('America/Phoenix'))
       el.textContent = 'Enrolling Now — Muslim Families Across the USA';
     else if (tz.startsWith('America/'))
       el.textContent = 'Enrolling Now — Muslim Families Across the USA';

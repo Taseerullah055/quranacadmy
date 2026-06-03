@@ -4,18 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>@yield('title','NoorPath Academy — Premium Online Quran Learning')</title>
-  <!-- ============================================================
-       SEO & METADATA
-       • Primary meta: title, description, keywords, robots, author
-       • Canonical URL
-       • Open Graph (Facebook, LinkedIn, WhatsApp)
-       • Twitter Card (X)
-       • Schema.org JSON-LD: EducationalOrganization + FAQPage + 
-         AggregateRating + Course + WebSite
-       • Theme colour, format-detection, mobile UX hints
-  ============================================================ -->
-
-  <!-- Primary SEO -->
+  
   <meta name="description"
         content="Online Quran classes for kids &amp; adults. Ijazah-certified teachers. Flexible 1-on-1 sessions in your timezone. Free trial — no credit card required." />
 
@@ -76,8 +65,8 @@
   <noscript>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" />
-  </noscript><
-  /head>
+  </noscript>
+</head>
 <body>
 <!-- Google Tag Manager (noscript) — paste after <body> tag -->
 <!-- Replace GTM-XXXXXXX with your container ID -->
