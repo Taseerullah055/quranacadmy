@@ -1,6 +1,6 @@
 <?php 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Client\{HomeController,LandingPageController,FreeTrailController,ContactUs,ThankYouController};
+use App\Http\Controllers\Client\{HomeController,LandingPageController,FreeTrailController,ContactUs,ThankYouController,ReviewController};
 
 Route::get('/',[HomeController::class,'index'])->name('client.home');
 Route::get('/female/teachers',[LandingPageController::class,'index']);
@@ -11,4 +11,6 @@ Route::post('/free_trail',[FreeTrailController::class,'store'])->name('free_trai
 Route::post('/contactus',[FreeTrailController::class,'store'])->name('contact.store');
 Route::get('/thank/you',[ThankYouController::class,'thankYou'])->name('thankYour');
 
+Route::get('/add/review',[ReviewController::class,'addReview'])->name('client.add.review');
+Route::post('/store/review',[ReviewController::class,'storeReview'])->name('cleint.review.store');
 ?>

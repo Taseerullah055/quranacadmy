@@ -133,6 +133,10 @@
         <a href="#pricing" class="nav-link" data-track="nav-pricing">Pricing</a>
       </li>
 
+      <li>
+        <a href="{{ route('client.add.review') }}" class="nav-link" data-track="nav-pricing">Add Review</a>
+      </li>
+
       <!-- Reviews — Social proof link (CONVERSION TRIGGER #3) -->
       <li>
         <a href="#reviews" class="nav-link" data-track="nav-reviews">
